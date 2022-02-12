@@ -14,6 +14,7 @@ const Portfolio_c = () => {
                         <div className="portfolio-item"></div>
                         <div className="portfolio-item"></div>
                         <div className="portfolio-item"></div>
+                        <div className="portfolio-item"></div>
                     </div>
                 </div>
             </div>
