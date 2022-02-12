@@ -1,0 +1,15 @@
+footer.site-footer {
+    background: #458;
+    padding: 20px 0;
+}
+
+.footer-copyright-text p {
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+.footer-copyright-text a {
+    color: #fff;
+    font-weight: bold;
+}

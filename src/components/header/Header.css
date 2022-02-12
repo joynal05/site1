@@ -1,0 +1,19 @@
+.header-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+header.site-header {
+    box-shadow: 0 0 5px #eee;
+    padding: 10px 0;
+    background: #fff;
+}
+
+h1.Site-logo {
+    font-size: 42px;
+}

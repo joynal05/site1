@@ -1,12 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './assets/css/global.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Portfolio from './routes/Portfolio';
+import About from './routes/About';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+<div className="site-wrapper">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}> </Route>
+        <Route path="/about" element={<About />}> </Route>
+        <Route path="/portfolio" element={<Portfolio />}> </Route>
+      </Routes>
+    </BrowserRouter>
+</div>
+
+
+
+
+
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
